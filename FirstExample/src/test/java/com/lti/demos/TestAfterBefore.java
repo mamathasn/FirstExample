@@ -12,8 +12,6 @@ class TestAfterBefore {
 	@BeforeAll
 	public static void dbConn()
 	{
-	
-		
 		Assertions.assertEquals("Up","Up");		
 		System.out.println(" before All Db conn is up" );
 	}
